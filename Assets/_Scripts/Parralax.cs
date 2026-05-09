@@ -5,6 +5,7 @@ using UnityEngine;
 public class Parralax : MonoBehaviour
 {
     //private GameManager manager;
+    private GameManager manager;
     public Camera cam;
     public Transform subjects;
 
@@ -29,6 +30,14 @@ public class Parralax : MonoBehaviour
         Length = GetComponent<SpriteRenderer>().bounds.size.y;
 
         transform.position = new Vector3(0f, startPos, startZ / 100f);
+
+        
+    }
+
+    private void Start()
+    {
+        //subjects = GameManager.Instance.Player.transform;
+        //cam = GameManager.Instance.CamTarget.ca;
     }
 
     // Update is called once per frame
