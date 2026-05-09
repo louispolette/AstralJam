@@ -195,8 +195,6 @@ public class StarLine : MonoBehaviour
             player.Bounce(GetPerpDir());
             ExpireLine();
         }
-
-        Debug.Log("Sling");
     }
 
     private Vector2 GetPerpDir()

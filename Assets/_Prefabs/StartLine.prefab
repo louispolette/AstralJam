@@ -138,6 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b7a5c43e0d5ac4da9641b6477cfdf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StarLine
+  <MinLength>k__BackingField: 1.25
+  <MaxLength>k__BackingField: 2.75
   <StarRotationMult>k__BackingField: 80
   <CollisionCheckMask>k__BackingField:
     serializedVersion: 2

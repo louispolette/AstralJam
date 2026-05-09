@@ -29,11 +29,18 @@ public class Player : MonoBehaviour
 
     public Rigidbody2D RB { get; private set; }
     public Animator Animator { get; private set; }
+    public PlayerTailRenderer ScarfRenderer { get; private set; }
+    public DynamicLineRenderer DynamicLine { get; private set; }
 
     private void Awake()
     {
         RB = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
+        ScarfRenderer = GetComponentInChildren<PlayerTailRenderer>();
+        DynamicLine = GetComponentInChildren<DynamicLineRenderer>();
+
+        var scarfBones = ScarfRenderer.TailBones;
+        DynamicLine.Initialize(scarfBones);
     }
 
     private void Update()
@@ -57,7 +64,7 @@ public class Player : MonoBehaviour
 
         if (_state == PlayerState.Falling)
         {
-            RB.linearVelocityY -= FallAcceleration;
+            RB.linearVelocityY = Mathf.Max(-FallMaxVel, RB.linearVelocityY - FallAcceleration);
         }
         else if (_state == PlayerState.Jumping)
         {
