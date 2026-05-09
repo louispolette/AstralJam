@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEditor.Build.Content;
 using UnityEngine;
 
@@ -8,38 +9,44 @@ public class Parralax : MonoBehaviour
     public Transform subjects;
 
 
-    Vector2 startPos;
+    float startPos;
     float startZ;
+
+    float Length;
     
-    Vector2 travel => (Vector2)cam.transform.position - startPos;
+    float travel => (float)cam.transform.position.y - startPos;
 
     float distanceFromSubject => startZ - subjects.position.z;
 
     float clippingPlane => (cam.transform.position.z + (distanceFromSubject > 0 ? cam.farClipPlane : cam.nearClipPlane));
 
-    float parralaxFactor => Mathf.Abs(distanceFromSubject / clippingPlane);
+    public float parralaxFactor => Mathf.Abs(distanceFromSubject / clippingPlane);
     private void Awake()
     {
-        startPos = transform.position;
+        startPos = transform.position.y;
         startZ = transform.position.z;
 
-        transform.position = new Vector3(0f, startPos.y, startZ / 100f);
-    }
+        Length = GetComponent<SpriteRenderer>().bounds.size.y;
 
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        //subjects = GameManager.Instance.Player.CameraTarget;
-        //cam = GameManager.Instance.Camera;
+        transform.position = new Vector3(0f, startPos, startZ / 100f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 newPos = startPos + travel * parralaxFactor;
+        float newDistance = cam.transform.position.y * parralaxFactor;
+        float newMouvement = cam.transform.position.y * (1 - parralaxFactor);
 
-        transform.position = new Vector3(0f, newPos.y,transform.position.z);
+
+        transform.position = new Vector3(0f, startPos + newDistance, transform.position.z);
+
+        if(newMouvement > startPos + Length)
+        {
+            startPos += Length;
+        }
+        else if (newMouvement < startPos - Length)
+        {
+            startPos -= Length;
+        }
     }
 }
