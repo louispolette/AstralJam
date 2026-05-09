@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad0))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             transform.position = Vector2.zero;
             RB.linearVelocity = Vector2.zero;
