@@ -4,6 +4,7 @@ public class StarLine : MonoBehaviour
 {
     [field: Space]
 
+    [field: SerializeField] public float MaxLength { get; private set; } = 5f;
     [field: SerializeField] public float StarRotationMult { get; private set; } = 1f;
     [field: SerializeField] public LayerMask CollisionCheckMask { get; private set; }
 
@@ -28,6 +29,7 @@ public class StarLine : MonoBehaviour
     private const float LINE_LIFETIME = 4f;
 
     private Vector2 MousePos => _camera.ScreenToWorldPoint(Input.mousePosition);
+    private Vector2 StarVec => (_stars[1].transform.position - _stars[0].transform.position).normalized;
 
     [System.Serializable]
     public class StarlineStar
@@ -63,13 +65,11 @@ public class StarLine : MonoBehaviour
         if (_state == StartlineState.BeingDrawn)
         {
             UpdateStarRotation();
-            OnDrawLine();
+            UpdateStarPositions();
         }
 
         if (_state == StartlineState.Solid)
         {
-            DoPlayerCheck();
-
             if (Time.time - _lineDrawnTime > LINE_LIFETIME)
             {
                 ExpireLine();
@@ -86,6 +86,14 @@ public class StarLine : MonoBehaviour
         }
     }
 
+    private void FixedUpdate()
+    {
+        if (_state == StartlineState.Solid)
+        {
+            DoPlayerCheck();
+        }
+    }
+
     private void HandleInput()
     {
         if (Input.GetMouseButtonDown(0))
@@ -99,10 +107,21 @@ public class StarLine : MonoBehaviour
         }
     }
 
-    private void OnDrawLine()
+    private void UpdateStarPositions()
     {
         _stars[0].transform.position = _drawStartPos;
-        _stars[1].transform.position = MousePos;
+
+        Vector2 endPos = MousePos;
+        Vector2 startToMouseVec = MousePos - (Vector2)_stars[0].transform.position;
+        float targetDistance = startToMouseVec.magnitude;
+
+        if (targetDistance > MaxLength)
+        {
+            float error = targetDistance - MaxLength;
+            endPos = MousePos - startToMouseVec.normalized * error;
+        }
+
+        _stars[1].transform.position = endPos;
     }
 
     private void BeginDraw()
@@ -137,8 +156,10 @@ public class StarLine : MonoBehaviour
     private void UpdateStarRotation()
     {
         float starDistance = Vector2.Distance(_stars[0].transform.position, _stars[1].transform.position);
-        _stars[0].transform.eulerAngles = new Vector3(0f, 0f, -starDistance * StarRotationMult);
-        _stars[1].transform.eulerAngles = new Vector3(0f, 0f, starDistance * StarRotationMult);
+        _stars[0].transform.right = StarVec;
+        _stars[0].transform.eulerAngles += new Vector3(0f, 0f, -starDistance * StarRotationMult);
+        _stars[1].transform.right = StarVec;
+        _stars[1].transform.eulerAngles += new Vector3(0f, 0f, starDistance * StarRotationMult);
     }
 
     private void UpdateLine()
@@ -152,6 +173,28 @@ public class StarLine : MonoBehaviour
     {
         var hit = Physics2D.Linecast(_stars[0].transform.position, _stars[1].transform.position, CollisionCheckMask);
 
+        if (!hit) return;
+
+        var player = hit.rigidbody.GetComponent<Player>();
+
+        if (player != null)
+        {
+            player.Bounce(GetPerpDir());
+            ExpireLine();
+        }
+
         Debug.Log("Sling");
+    }
+
+    private Vector2 GetPerpDir()
+    {
+        var perp = Vector2.Perpendicular(_stars[1].transform.position - _stars[0].transform.position);
+
+        if (perp.y < 0f)
+        {
+            perp = -perp;
+        }
+
+        return perp.normalized;
     }
 }

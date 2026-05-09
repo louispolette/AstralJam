@@ -40,6 +40,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3771523216121130987}
     m_Modifications:
+    - target: {fileID: 501861002796511204, guid: c642208d43ff2bb489fed5bdf3d8bba1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3464130650099995777, guid: c642208d43ff2bb489fed5bdf3d8bba1, type: 3}
       propertyPath: m_Name
       value: Boundaries
@@ -83,6 +87,10 @@ PrefabInstance:
     - target: {fileID: 4714184166717283059, guid: c642208d43ff2bb489fed5bdf3d8bba1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393128446293510782, guid: c642208d43ff2bb489fed5bdf3d8bba1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

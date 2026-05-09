@@ -208,6 +208,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 019a390da633af5408154aa4eaabffc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  DecelerationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 26.131248
+      outSlope: 26.131248
+      tangentMode: 0
+      weightedMode: 2
+      inWeight: 0
+      outWeight: 0.036036037
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.04372728
+      outSlope: 0.04372728
+      tangentMode: 0
+      weightedMode: 1
+      inWeight: 0.8258258
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DecelerationDuration: 0.75
+  FallAcceleration: 0.5
+  FallMaxVel: 10
+  BounceForce: 20
 --- !u!50 &8138760224058435719
 Rigidbody2D:
   serializedVersion: 5
@@ -216,7 +244,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8998521644766010504}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -233,7 +261,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!95 &2773312025224814584
 Animator:
