@@ -52,7 +52,8 @@ public class Player : MonoBehaviour
 
     private void UpdateGravity()
     {
-        _state = (RB.linearVelocityY <= 0) ? PlayerState.Falling : PlayerState.Jumping;
+        var newState = (RB.linearVelocityY <= 0) ? PlayerState.Falling : PlayerState.Jumping;
+        SetPlayerState(newState);
 
         if (_state == PlayerState.Falling)
         {
@@ -72,11 +73,19 @@ public class Player : MonoBehaviour
         RB.linearVelocity = force;
         _lastJumpTime = Time.time;
         _lastJumpInitialVel = RB.linearVelocity;
-        _state = PlayerState.Jumping;
+        SetPlayerState(PlayerState.Jumping);
     }
 
     public void Flip()
     {
         RB.linearVelocityX = -RB.linearVelocity.x;
+    }
+
+    private void SetPlayerState(PlayerState newState)
+    {
+        if (newState == _state) return;
+
+        _state = newState;
+        Animator.SetBool("isJumping", _state == PlayerState.Jumping);
     }
 }
