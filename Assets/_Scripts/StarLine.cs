@@ -4,7 +4,11 @@ public class StarLine : MonoBehaviour
 {
     [field: Space]
 
+    [field: SerializeField] public float MinLength { get; private set; } = 1f;
     [field: SerializeField] public float MaxLength { get; private set; } = 5f;
+
+    [field: Space]
+
     [field: SerializeField] public float StarRotationMult { get; private set; } = 1f;
     [field: SerializeField] public LayerMask CollisionCheckMask { get; private set; }
 
@@ -30,6 +34,8 @@ public class StarLine : MonoBehaviour
 
     private Vector2 MousePos => _camera.ScreenToWorldPoint(Input.mousePosition);
     private Vector2 StarVec => (_stars[1].transform.position - _stars[0].transform.position).normalized;
+    private float StarlineLength => (_stars[1].transform.position - _stars[0].transform.position).magnitude;
+
 
     [System.Serializable]
     public class StarlineStar
@@ -103,7 +109,14 @@ public class StarLine : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
-            EndDraw();
+            if (StarlineLength >= MinLength)
+            {
+                CompleteLine();
+            }
+            else
+            {
+                ExpireLine();
+            }
         }
     }
 
@@ -133,7 +146,7 @@ public class StarLine : MonoBehaviour
         _lineDrawnTime = Time.time;
     }
 
-    private void EndDraw()
+    private void CompleteLine()
     {
         _state = StartlineState.Solid;
     }
