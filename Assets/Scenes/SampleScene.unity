@@ -584,6 +584,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Score
       objectReference: {fileID: 0}
+    - target: {fileID: 3434502875961865059, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 531
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434502875961865059, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 376
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434502875961865059, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434502875961865059, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434502875961865059, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 5548018379851999998, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
       propertyPath: m_text
       value: 0
@@ -592,12 +612,17 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5639629817725519728, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed79f84b5f78cc4429141240db1e8669, type: 3}
     - target: {fileID: 7341104552690668192, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2926474024252524329, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
@@ -829,7 +854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4642201063270790706, guid: e299bec07f3cbdf4fb101b89daac2c68, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 4642201063270790706, guid: e299bec07f3cbdf4fb101b89daac2c68, type: 3}
       propertyPath: m_LocalPosition.z

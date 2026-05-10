@@ -41,7 +41,8 @@ public class StarLine : MonoBehaviour
     private const float LINE_LIFETIME = 2.5f;
 
     private Vector2 MousePos => _camera.ScreenToWorldPoint(Input.mousePosition);
-    private Vector2 StarVec => (_stars[1].transform.position - _stars[0].transform.position).normalized;
+    private Vector2 StarVec => _stars[1].transform.position - _stars[0].transform.position;
+    private Vector2 StarDir => (_stars[1].transform.position - _stars[0].transform.position).normalized;
     private float StarlineLength => (_stars[1].transform.position - _stars[0].transform.position).magnitude;
 
 
@@ -217,17 +218,22 @@ public class StarLine : MonoBehaviour
     private void UpdateStarRotation()
     {
         float starDistance = Vector2.Distance(_stars[0].transform.position, _stars[1].transform.position);
-        _stars[0].transform.right = StarVec;
+        _stars[0].transform.right = StarDir;
         _stars[0].transform.eulerAngles += new Vector3(0f, 0f, -starDistance * StarRotationMult);
-        _stars[1].transform.right = StarVec;
+        _stars[1].transform.right = StarDir;
         _stars[1].transform.eulerAngles += new Vector3(0f, 0f, starDistance * StarRotationMult);
     }
 
     private void UpdateLine()
     {
-        _linePosArray[0] = _stars[0].transform.position;
-        _linePosArray[1] = _stars[1].transform.position;
+        _linePosArray[0] = Vector2.Lerp(_stars[0].transform.position, _stars[1].transform.position, 0.1f);
+        _linePosArray[1] = Vector2.Lerp(_stars[0].transform.position, _stars[1].transform.position, 0.9f);
         _line.SetPositions(_linePosArray);
+    }
+
+    private void SetLineAlpha(float alpha)
+    {
+
     }
 
     private void DoPlayerCheck()
