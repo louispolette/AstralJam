@@ -8,7 +8,7 @@ public class Boundary : MonoBehaviour
 
         if (player != null)
         {
-            player.Flip();
+            player.FlipVel();
         }
     }
 }

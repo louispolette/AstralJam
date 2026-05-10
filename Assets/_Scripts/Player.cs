@@ -16,6 +16,11 @@ public class Player : MonoBehaviour
 
     [field: SerializeField] public float BounceForce = 10f;
 
+    [field: Header("References")]
+
+    [field: SerializeField] public SpriteRenderer BodySprite { get; private set; }
+    [field: SerializeField] public SpriteRenderer HandSprite { get; private set; }
+
     private float _lastJumpTime = -9999f;
     private Vector2 _lastJumpInitialVel;
 
@@ -80,12 +85,20 @@ public class Player : MonoBehaviour
         RB.linearVelocity = force;
         _lastJumpTime = Time.time;
         _lastJumpInitialVel = RB.linearVelocity;
+        FlipSprite();
         SetPlayerState(PlayerState.Jumping);
     }
 
-    public void Flip()
+    public void FlipVel()
     {
         RB.linearVelocityX = -RB.linearVelocity.x;
+        FlipSprite();
+    }
+
+    public void FlipSprite()
+    {
+        BodySprite.flipX = RB.linearVelocityX < 0f;
+        HandSprite.flipX = RB.linearVelocityX < 0f;
     }
 
     private void SetPlayerState(PlayerState newState)

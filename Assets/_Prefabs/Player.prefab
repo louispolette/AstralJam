@@ -384,13 +384,22 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.35
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -505,7 +514,7 @@ MonoBehaviour:
   - {fileID: 6893972142705860743}
   - {fileID: 7889610598757707257}
   _ropeSegmentLength: 0.15
-  _gravityForce: {x: 0, y: -0.2}
+  _gravityForce: {x: 0, y: -0.1}
   _dampingFactor: 0.95
   _correctionClampAmount: 0.1
   _numOfConstraintRuns: 50
@@ -923,6 +932,8 @@ MonoBehaviour:
   FallAcceleration: 1.25
   FallMaxVel: 25
   BounceForce: 25
+  <BodySprite>k__BackingField: {fileID: 7801831446025177297}
+  <HandSprite>k__BackingField: {fileID: 8396509233459911838}
 --- !u!50 &8138760224058435719
 Rigidbody2D:
   serializedVersion: 5

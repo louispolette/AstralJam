@@ -23,6 +23,8 @@ public class StarLine : MonoBehaviour
 
     private float _lineDrawnTime = -9999f;
 
+    private int _linesDrawn = 0;
+
     private Camera _camera;
     private LineRenderer _line;
 
@@ -149,6 +151,14 @@ public class StarLine : MonoBehaviour
     private void CompleteLine()
     {
         _state = StartlineState.Solid;
+
+        if (_linesDrawn <= 0)
+        {
+            GameManager.UnpauseGame();
+            GameManager.ShowGameUI();
+        }
+
+        _linesDrawn++;
     }
 
     private void ExpireLine()

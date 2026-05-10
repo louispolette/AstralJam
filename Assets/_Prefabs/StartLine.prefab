@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StarLine
   <MinLength>k__BackingField: 1.25
-  <MaxLength>k__BackingField: 2.75
+  <MaxLength>k__BackingField: 3.25
   <StarRotationMult>k__BackingField: 80
   <CollisionCheckMask>k__BackingField:
     serializedVersion: 2
