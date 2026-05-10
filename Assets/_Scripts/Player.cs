@@ -20,6 +20,11 @@ public class Player : MonoBehaviour
 
     [field: SerializeField] public SpriteRenderer BodySprite { get; private set; }
     [field: SerializeField] public SpriteRenderer HandSprite { get; private set; }
+    [field: SerializeField] public AudioSource Audio { get; private set; }
+
+    [field: Header("Audio")]
+
+    [field: SerializeField] public AudioClip JumpSFX { get; private set; }
 
     private float _lastJumpTime = -9999f;
     private Vector2 _lastJumpInitialVel;
@@ -86,7 +91,15 @@ public class Player : MonoBehaviour
         _lastJumpTime = Time.time;
         _lastJumpInitialVel = RB.linearVelocity;
         FlipSprite();
+        PlayJumpAudio();
         SetPlayerState(PlayerState.Jumping);
+    }
+
+    private void PlayJumpAudio()
+    {
+        float pitch = Random.Range(0.975f, 1.025f);
+        Audio.pitch = pitch;
+        Audio.PlayOneShot(JumpSFX, 0.075f);
     }
 
     public void FlipVel()

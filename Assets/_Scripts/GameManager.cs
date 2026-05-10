@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     private float _initialHeight;
     private int _height;
-
+    private float _gameOverTime = float.PositiveInfinity;
     public GameState CurrentGameState { get; private set; } = GameState.Title;
 
     public enum GameState
@@ -38,6 +38,15 @@ public class GameManager : MonoBehaviour
 
         Time.timeScale = 0f;
         _initialHeight = CamTarget.transform.position.y;
+    }
+
+    private void Update()
+    {
+        if (CurrentGameState == GameState.GameOver && Input.GetMouseButtonDown(0))
+        {
+            if (Time.unscaledTime - _gameOverTime >= 1.5f)
+            ReloadScene();
+        }
     }
 
     private void FixedUpdate()
@@ -73,8 +82,17 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
+        if (CurrentGameState == GameState.GameOver) return;
+
+        Player.gameObject.SetActive(false);
+
         CurrentGameState = GameState.GameOver;
         GameOverText.SetActive(true);
+        _gameOverTime = Time.unscaledTime;
+    }
+
+    private void ReloadScene()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

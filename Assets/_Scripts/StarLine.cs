@@ -104,6 +104,16 @@ public class StarLine : MonoBehaviour
 
     private void HandleInput()
     {
+        if (GameManager.Instance.CurrentGameState == GameManager.GameState.GameOver)
+        {
+            if (Input.GetMouseButton(0) && _state == StartlineState.BeingDrawn)
+            {
+                ExpireLine();
+            }
+
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             BeginDraw();
