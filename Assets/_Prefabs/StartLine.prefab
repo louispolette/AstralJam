@@ -144,6 +144,8 @@ MonoBehaviour:
   <CollisionCheckMask>k__BackingField:
     serializedVersion: 2
     m_Bits: 8
+  <StarSpinVel>k__BackingField: 2000
+  <StarSpinDeceleration>k__BackingField: 4750
   <StartStarObject>k__BackingField: {fileID: 4292825606833900739}
   <EndStarObject>k__BackingField: {fileID: 666994004984556034}
 --- !u!1 &4292825606833900739

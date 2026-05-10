@@ -1066,6 +1066,7 @@ MonoBehaviour:
   <HandSprite>k__BackingField: {fileID: 8396509233459911838}
   <Audio>k__BackingField: {fileID: 1172200283465467648}
   <JumpSFX>k__BackingField: {fileID: 8300000, guid: 1529f7725f5ba724080ea9965bd79437, type: 3}
+  <StarBounceSFX>k__BackingField: {fileID: 8300000, guid: db51af4cf62ca614797454323f6fdbf7, type: 3}
 --- !u!50 &8138760224058435719
 Rigidbody2D:
   serializedVersion: 5

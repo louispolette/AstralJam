@@ -14,6 +14,11 @@ public class StarLine : MonoBehaviour
 
     [field: Space]
 
+    [field: SerializeField] public float StarSpinVel { get; private set; } = 1000f;
+    [field: SerializeField] public float StarSpinDeceleration { get; private set; } = 1f;
+
+    [field: Space]
+
     [field: SerializeField] public GameObject StartStarObject { get; private set; }
     [field: SerializeField] public GameObject EndStarObject { get; private set; }
 
@@ -22,6 +27,7 @@ public class StarLine : MonoBehaviour
     private Vector2 _drawStartPos;
 
     private float _lineDrawnTime = -9999f;
+    private float _starVel = 0f;
 
     private int _linesDrawn = 0;
 
@@ -30,9 +36,9 @@ public class StarLine : MonoBehaviour
 
     private Vector3[] _linePosArray = new Vector3[2];
 
-    private StartlineState _state = StartlineState.None;
+    private StarlineState _state = StarlineState.None;
 
-    private const float LINE_LIFETIME = 4f;
+    private const float LINE_LIFETIME = 2.5f;
 
     private Vector2 MousePos => _camera.ScreenToWorldPoint(Input.mousePosition);
     private Vector2 StarVec => (_stars[1].transform.position - _stars[0].transform.position).normalized;
@@ -70,13 +76,13 @@ public class StarLine : MonoBehaviour
     {
         HandleInput();
 
-        if (_state == StartlineState.BeingDrawn)
+        if (_state == StarlineState.BeingDrawn)
         {
             UpdateStarRotation();
             UpdateStarPositions();
         }
 
-        if (_state == StartlineState.Solid)
+        if (_state == StarlineState.Solid)
         {
             if (Time.time - _lineDrawnTime > LINE_LIFETIME)
             {
@@ -84,7 +90,12 @@ public class StarLine : MonoBehaviour
             }
         }
 
-        if ( _state == StartlineState.None)
+        if (_state == StarlineState.Used)
+        {
+            DoStarSpin();
+        }
+
+        if ( _state == StarlineState.None)
         {
 
         }
@@ -96,7 +107,7 @@ public class StarLine : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_state == StartlineState.Solid)
+        if (_state == StarlineState.Solid)
         {
             DoPlayerCheck();
         }
@@ -106,7 +117,7 @@ public class StarLine : MonoBehaviour
     {
         if (GameManager.Instance.CurrentGameState == GameManager.GameState.GameOver)
         {
-            if (Input.GetMouseButton(0) && _state == StartlineState.BeingDrawn)
+            if (Input.GetMouseButton(0) && _state == StarlineState.BeingDrawn)
             {
                 ExpireLine();
             }
@@ -149,9 +160,19 @@ public class StarLine : MonoBehaviour
         _stars[1].transform.position = endPos;
     }
 
+    private void DoStarSpin()
+    {
+        float spinAmount = _starVel * Time.deltaTime;
+
+        _stars[0].transform.eulerAngles = new Vector3(0f, 0f, _stars[0].transform.eulerAngles.z + spinAmount);
+        _stars[1].transform.eulerAngles = new Vector3(0f, 0f, _stars[1].transform.eulerAngles.z - spinAmount);
+
+        _starVel = Mathf.Max(0f, _starVel - StarSpinDeceleration * Time.deltaTime);
+    }
+
     private void BeginDraw()
     {
-        _state = StartlineState.BeingDrawn;
+        _state = StarlineState.BeingDrawn;
         _drawStartPos = MousePos;
         _line.enabled = true;
         SetStarsVisible(true);
@@ -160,7 +181,7 @@ public class StarLine : MonoBehaviour
 
     private void CompleteLine()
     {
-        _state = StartlineState.Solid;
+        _state = StarlineState.Solid;
 
         if (_linesDrawn <= 0)
         {
@@ -175,7 +196,14 @@ public class StarLine : MonoBehaviour
     {
         _line.enabled = false;
         SetStarsVisible(false);
-        _state = StartlineState.None;
+        _state = StarlineState.None;
+    }
+
+    private void OnBounce()
+    {
+        _state = StarlineState.Used;
+        _starVel = StarSpinVel;
+        _lineDrawnTime = Time.time;
     }
 
     private void SetStarsVisible(bool isVisible)
@@ -213,7 +241,7 @@ public class StarLine : MonoBehaviour
         if (player != null)
         {
             player.Bounce(GetPerpDir());
-            ExpireLine();
+            OnBounce();
         }
     }
 

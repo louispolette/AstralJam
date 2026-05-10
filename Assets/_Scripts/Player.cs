@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     [field: Header("Audio")]
 
     [field: SerializeField] public AudioClip JumpSFX { get; private set; }
+    [field: SerializeField] public AudioClip StarBounceSFX { get; private set; }
 
     private float _lastJumpTime = -9999f;
     private Vector2 _lastJumpInitialVel;
@@ -81,23 +82,24 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void Bounce(Vector2 direction)
+    public void Bounce(Vector2 direction, bool isStarBounce = false)
     {
         Vector2 force = direction * BounceForce;
         RB.linearVelocity = force;
         _lastJumpTime = Time.time;
         _lastJumpInitialVel = RB.linearVelocity;
         FlipSprite();
-        PlayJumpAudio();
+        PlayJumpAudio(isStarBounce);
         GameManager.Instance.jumps++;
         SetPlayerState(PlayerState.Jumping);
     }
 
-    private void PlayJumpAudio()
+    private void PlayJumpAudio(bool isStarBounce)
     {
         float pitch = Random.Range(0.975f - 0.05f, 1.025f - 0.05f);
         Audio.pitch = pitch;
-        Audio.PlayOneShot(JumpSFX, 0.075f);
+        AudioClip clip = !isStarBounce ? JumpSFX : StarBounceSFX;
+        Audio.PlayOneShot(clip, 0.075f);
     }
 
     public void FlipVel()

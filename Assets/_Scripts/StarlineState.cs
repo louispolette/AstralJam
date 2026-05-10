@@ -1,6 +1,7 @@
-public enum StartlineState
+public enum StarlineState
 {
     None,
     BeingDrawn,
-    Solid
+    Solid,
+    Used
 }
