@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [field: SerializeField] public TextMeshProUGUI ScoreText { get; private set; }
     [field: SerializeField] public Animator UIAnimator { get; private set; }
     [field: SerializeField] public GameObject GameOverText { get; private set; }
+    [field: SerializeField] public GameObject TutorialStuff { get; private set; }
 
     private float _initialHeight;
     private int _height;
@@ -72,6 +73,7 @@ public class GameManager : MonoBehaviour
     public static void UnpauseGame()
     {
         Time.timeScale = 1f;
+        Instance.TutorialStuff.SetActive(false);
         Instance.CurrentGameState = GameState.Gameplay;
     }
 

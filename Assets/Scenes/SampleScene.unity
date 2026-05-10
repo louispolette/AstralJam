@@ -164,6 +164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!1 &131013722 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6370676008715650249, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+  m_PrefabInstance: {fileID: 283839721363956492}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &352566005 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5002738250790815338, guid: 2e7b1b2f1c56d8640a390f679c293068, type: 3}
@@ -246,6 +251,14 @@ PrefabInstance:
       propertyPath: subjects
       value: 
       objectReference: {fileID: 1051015767}
+    - target: {fileID: 2108880013345423810, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 6917731419339474520}
+    - target: {fileID: 2108880013345423810, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
+      propertyPath: subjects
+      value: 
+      objectReference: {fileID: 1051015767}
     - target: {fileID: 2229145567442091104, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
       propertyPath: cam
       value: 
@@ -307,6 +320,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6917731419339474520}
     - target: {fileID: 4884078065121942888, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
+      propertyPath: subjects
+      value: 
+      objectReference: {fileID: 1051015767}
+    - target: {fileID: 4937680867277295150, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 6917731419339474520}
+    - target: {fileID: 4937680867277295150, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
       propertyPath: subjects
       value: 
       objectReference: {fileID: 1051015767}
@@ -339,6 +360,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6917731419339474520}
     - target: {fileID: 6056645884373213036, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
+      propertyPath: subjects
+      value: 
+      objectReference: {fileID: 1051015767}
+    - target: {fileID: 6158475790054563801, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 6917731419339474520}
+    - target: {fileID: 6158475790054563801, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
       propertyPath: subjects
       value: 
       objectReference: {fileID: 1051015767}
@@ -410,6 +439,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parralax_element (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8007706681473161814, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 6917731419339474520}
+    - target: {fileID: 8007706681473161814, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
+      propertyPath: subjects
+      value: 
+      objectReference: {fileID: 1051015767}
     - target: {fileID: 8204036354080478350, guid: 9f5b687f967820b4c8be70844b19d1e7, type: 3}
       propertyPath: cam
       value: 
@@ -694,6 +731,10 @@ PrefabInstance:
       propertyPath: <GameOverText>k__BackingField
       value: 
       objectReference: {fileID: 2128365021}
+    - target: {fileID: 3629324929952891992, guid: 4cba754c673ecbc47a9dc49bbb5fabcb, type: 3}
+      propertyPath: <TutorialStuff>k__BackingField
+      value: 
+      objectReference: {fileID: 131013722}
     - target: {fileID: 6456933271406220659, guid: 4cba754c673ecbc47a9dc49bbb5fabcb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.76966
