@@ -33,6 +33,8 @@ public class GameManager : MonoBehaviour
     public int jumps = 0;
     public GameState CurrentGameState { get; private set; } = GameState.Title;
 
+    private static  bool hasSetResolution = false;
+
     public enum GameState
     {
         Title,
@@ -50,10 +52,24 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         _initialHeight = CamTarget.transform.position.y;
         _nextStarHeight = StarSpawnthreshold;
+
+        if (!hasSetResolution)
+        {
+            Screen.SetResolution(1296, 976, Screen.fullScreen);
+            hasSetResolution = true;
+        }
     }
 
     private void Update()
     {
+        if (CurrentGameState == GameState.Title || CurrentGameState == GameState.GameOver)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
+        }
+
         if (CurrentGameState == GameState.GameOver && Input.GetMouseButtonDown(0))
         {
             if (Time.unscaledTime - _gameOverTime >= 1.5f)
