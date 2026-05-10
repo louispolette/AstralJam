@@ -1059,7 +1059,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   DecelerationDuration: 1
-  FallAcceleration: 1.25
+  FallAcceleration: 30
   FallMaxVel: 25
   BounceForce: 25
   <BodySprite>k__BackingField: {fileID: 7801831446025177297}

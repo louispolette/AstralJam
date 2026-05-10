@@ -60,10 +60,7 @@ public class Player : MonoBehaviour
             transform.position = Vector2.zero;
             RB.linearVelocity = Vector2.zero;
         }
-    }
 
-    private void FixedUpdate()
-    {
         UpdateGravity();
     }
 
@@ -74,7 +71,7 @@ public class Player : MonoBehaviour
 
         if (_state == PlayerState.Falling)
         {
-            RB.linearVelocityY = Mathf.Max(-FallMaxVel, RB.linearVelocityY - FallAcceleration);
+            RB.linearVelocityY = Mathf.Max(-FallMaxVel, RB.linearVelocityY - FallAcceleration * Time.deltaTime);
         }
         else if (_state == PlayerState.Jumping)
         {
@@ -92,12 +89,13 @@ public class Player : MonoBehaviour
         _lastJumpInitialVel = RB.linearVelocity;
         FlipSprite();
         PlayJumpAudio();
+        GameManager.Instance.jumps++;
         SetPlayerState(PlayerState.Jumping);
     }
 
     private void PlayJumpAudio()
     {
-        float pitch = Random.Range(0.975f, 1.025f);
+        float pitch = Random.Range(0.975f - 0.05f, 1.025f - 0.05f);
         Audio.pitch = pitch;
         Audio.PlayOneShot(JumpSFX, 0.075f);
     }

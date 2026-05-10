@@ -569,6 +569,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2811784557356511057, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+      propertyPath: m_Name
+      value: Score
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548018379851999998, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548018379851999998, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7341104552690668192, guid: d82c14cfbde846a40aceec3c3fa413dd, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -855,7 +867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3017840074629327635, guid: 4a09112ca33e8e049b6a0e742f46ca8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3017840074629327635, guid: 4a09112ca33e8e049b6a0e742f46ca8e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -917,7 +929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5002738250790815338, guid: 2e7b1b2f1c56d8640a390f679c293068, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5002738250790815338, guid: 2e7b1b2f1c56d8640a390f679c293068, type: 3}
       propertyPath: m_LocalPosition.z
@@ -977,6 +989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CinemachineCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 3576730161984094256, guid: 3ee307fb811c6994ab285ad865e6a491, type: 3}
+      propertyPath: Composition.ScreenPosition.y
+      value: -0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 4929377654755953630, guid: 3ee307fb811c6994ab285ad865e6a491, type: 3}
       propertyPath: Target.TrackingTarget
       value: 
@@ -987,7 +1003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7707653152089567768, guid: 3ee307fb811c6994ab285ad865e6a491, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7707653152089567768, guid: 3ee307fb811c6994ab285ad865e6a491, type: 3}
       propertyPath: m_LocalPosition.z
