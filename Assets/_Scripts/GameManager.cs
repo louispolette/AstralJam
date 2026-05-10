@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
 
     [field: Space]
 
-    [field: SerializeField] public float MaxHeight { get; private set; } = 100f;
+    [field: SerializeField] public float StarSpawnthreshold { get; private set; } = 100f;
+    [field: SerializeField] public float StarSpawnIncrement { get; private set; } = 50f;
 
     [field: Header("Time Scale")]
 
@@ -23,10 +24,12 @@ public class GameManager : MonoBehaviour
     [field: SerializeField] public Animator UIAnimator { get; private set; }
     [field: SerializeField] public GameObject GameOverText { get; private set; }
     [field: SerializeField] public GameObject TutorialStuff { get; private set; }
+    [field: SerializeField] public BlueStarSpawner StarSpawner { get; private set; }
 
     private float _initialHeight;
     private int _height;
     private float _gameOverTime = float.PositiveInfinity;
+    private float _nextStarHeight = 100f;
     public int jumps = 0;
     public GameState CurrentGameState { get; private set; } = GameState.Title;
 
@@ -46,6 +49,7 @@ public class GameManager : MonoBehaviour
         Application.targetFrameRate = 120;
         Time.timeScale = 0f;
         _initialHeight = CamTarget.transform.position.y;
+        _nextStarHeight = StarSpawnthreshold;
     }
 
     private void Update()
@@ -66,6 +70,7 @@ public class GameManager : MonoBehaviour
     {
         CheckIfPlayerFell();
         UpdateScore();
+        HandleStarSpawning();
     }
 
     private void CheckIfPlayerFell()
@@ -73,6 +78,15 @@ public class GameManager : MonoBehaviour
         if (Player.transform.position.y - CamTarget.transform.position.y < -10f)
         {
             GameOver();
+        }
+    }
+
+    private void HandleStarSpawning()
+    {
+        if (_height >= _nextStarHeight)
+        {
+            StarSpawner.SpawnStar();
+            _nextStarHeight += StarSpawnIncrement * Random.Range(0.5f, 2f);
         }
     }
 

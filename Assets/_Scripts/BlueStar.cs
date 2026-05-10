@@ -24,7 +24,7 @@ public class BlueStar : MonoBehaviour
 
         if (player != null)
         {
-            Vector2 dir = (Random.Range(0, 2)) == 1 ? new Vector2(1f, 1f) : new Vector2(-1f, 1f);
+            Vector2 dir = (Random.Range(0, 2)) == 1 ? new Vector2(0.5f, 1f) : new Vector2(-0.5f, 1f);
 
             player.Bounce(dir, true);
             _usedTime = Time.time;

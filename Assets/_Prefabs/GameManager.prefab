@@ -44,3 +44,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dad7450f4885e742a2dfb5fc9a5b000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  <StarSpawnthreshold>k__BackingField: 750
+  <StarSpawnIncrement>k__BackingField: 100
+  <StartTimeScale>k__BackingField: 0.75
+  <TimeScaleIncreaseMult>k__BackingField: 1
+  <Player>k__BackingField: {fileID: 0}
+  <CamTarget>k__BackingField: {fileID: 0}
+  <ScoreText>k__BackingField: {fileID: 0}
+  <UIAnimator>k__BackingField: {fileID: 0}
+  <GameOverText>k__BackingField: {fileID: 0}
+  <TutorialStuff>k__BackingField: {fileID: 0}
+  <StarSpawner>k__BackingField: {fileID: 0}
+  jumps: 0
