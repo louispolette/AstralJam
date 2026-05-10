@@ -48,12 +48,15 @@ public class Parralax : MonoBehaviour
         transform.position = new Vector3(0f, startPos, startZ / 100f);
 
         
+
+
+
     }
 
     private void Start()
     {
-        //subjects = GameManager.Instance.Player.transform;
-        //cam = GameManager.Instance.CamTarget.ca;
+        subjects = GameManager.Instance.Player.transform;
+        //cam = GameManager.Instance.CamTarget.GetComponent<Camera>();
 
         if (GetComponent<SpriteRenderer>() != null)
         {
@@ -89,7 +92,7 @@ public class Parralax : MonoBehaviour
                 _spriteRenderer2.sprite = RandomSprite[SpriteChose];
             }
 
-            if (isRandomX) RandomX = Random.Range(-8, 8);
+            if (isRandomX) RandomX = Random.Range(-3, 3);
         }
         else if (newMouvement < startPos - Length)
         {
@@ -102,7 +105,7 @@ public class Parralax : MonoBehaviour
                 startPos -= Length * 2;
             }
 
-            if (isRandomX) RandomX = Random.Range(-8, 8);
+            if (isRandomX) RandomX = Random.Range(-3, 3);
         }
     }
 }
