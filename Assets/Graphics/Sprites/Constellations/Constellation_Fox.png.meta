@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 4cee6aaa319580849a71b15aa4e79827
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 440412167032402906
+    second: Constellation_Fox_0
+  - first:
+      213: 8856813806581870120
+    second: Constellation_Fox_1
+  - first:
+      213: -4988348974130728900
+    second: Constellation_Fox_2
+  - first:
+      213: -3876390909224097255
+    second: Constellation_Fox_3
+  - first:
+      213: -3647041292504128717
+    second: Constellation_Fox_4
+  - first:
+      213: -3502627705869437871
+    second: Constellation_Fox_5
+  - first:
+      213: -3638809246647436146
+    second: Constellation_Fox_6
+  - first:
+      213: -449319500356561554
+    second: Constellation_Fox_7
+  - first:
+      213: -3969968686877788598
+    second: Constellation_Fox_8
+  - first:
+      213: -3772220838113292703
+    second: Constellation_Fox_9
+  - first:
+      213: 4194566386117749270
+    second: Constellation_Fox_10
+  - first:
+      213: -6707966511368875167
+    second: Constellation_Fox_11
+  - first:
+      213: 5059932726238267173
+    second: Constellation_Fox_12
+  - first:
+      213: -8791892297533549290
+    second: Constellation_Fox_13
+  - first:
+      213: -1508742604236906283
+    second: Constellation_Fox_14
+  - first:
+      213: -108931787386045735
+    second: Constellation_Fox_15
+  - first:
+      213: -7079036224822204618
+    second: Constellation_Fox_16
+  - first:
+      213: 8714452605178652570
+    second: Constellation_Fox_17
+  - first:
+      213: 1456820268681618415
+    second: Constellation_Fox_18
+  - first:
+      213: -4599381527067866667
+    second: Constellation_Fox_19
+  - first:
+      213: 161015749494577078
+    second: Constellation_Fox_20
+  - first:
+      213: 3042288470205296512
+    second: Constellation_Fox_21
+  - first:
+      213: -2274305301369142173
+    second: Constellation_Fox_22
+  - first:
+      213: 7729777802704111194
+    second: Constellation_Fox_23
+  - first:
+      213: 5845918185527396767
+    second: Constellation_Fox_24
+  - first:
+      213: 477838960397976687
+    second: Constellation_Fox_25
+  - first:
+      213: 7152316973404469476
+    second: Constellation_Fox_26
+  - first:
+      213: -5776367373672275260
+    second: Constellation_Fox_27
+  - first:
+      213: -4896520730255771077
+    second: Constellation_Fox_28
+  - first:
+      213: -6197605707959707290
+    second: Constellation_Fox_29
+  - first:
+      213: -1177075873052772202
+    second: Constellation_Fox_30
+  - first:
+      213: 4576605291877297749
+    second: Constellation_Fox_31
+  - first:
+      213: 8379151461197975132
+    second: Constellation_Fox_32
+  - first:
+      213: -5082522523380919855
+    second: Constellation_Fox_33
+  - first:
+      213: 7835413916840425217
+    second: Constellation_Fox_34
+  - first:
+      213: -4172209472980531929
+    second: Constellation_Fox_35
+  - first:
+      213: 6476412486766863442
+    second: Constellation_Fox_36
+  - first:
+      213: 2954827855839581685
+    second: Constellation_Fox_37
+  - first:
+      213: -5292953005948824138
+    second: Constellation_Fox_38
+  - first:
+      213: 1091363819340208480
+    second: Constellation_Fox_39
+  - first:
+      213: -918838359973649515
+    second: Constellation_Fox_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Constellation_Fox_0
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 476
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3f9b25888ac1600800000000000000
+      internalID: 440412167032402906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_1
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 468
+        width: 77
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e661f4b39b9ea70800000000000000
+      internalID: 8856813806581870120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 361
+        width: 10
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30f0459903d5cab0800000000000000
+      internalID: -4988348974130728900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 350
+        width: 77
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ae42d810b443ac0800000000000000
+      internalID: -3876390909224097255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_4
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 456
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3332c1f644b136dc0800000000000000
+      internalID: -3647041292504128717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 337
+        width: 61
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154f533c8aa246fc0800000000000000
+      internalID: -3502627705869437871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_6
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 344
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c3c28f44a508dc0800000000000000
+      internalID: -3638809246647436146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 290
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6557968b42b3c9f0800000000000000
+      internalID: -449319500356561554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 333
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46b9395386d7e8c0800000000000000
+      internalID: -3969968686877788598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 281
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e4ee1422166abc0800000000000000
+      internalID: -3772220838113292703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 256
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61aa75787e7163a30800000000000000
+      internalID: 4194566386117749270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 262
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16354ac8ff388e2a0800000000000000
+      internalID: -6707966511368875167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_12
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 253
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5274ece710e783640800000000000000
+      internalID: 5059932726238267173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 157
+        width: 35
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615150e698cecf580800000000000000
+      internalID: -8791892297533549290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 250
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d026f8589edf0be0800000000000000
+      internalID: -1508742604236906283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_15
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 250
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da3b14dd1ffc7ef0800000000000000
+      internalID: -108931787386045735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 248
+        width: 48
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637a9535f0632cd90800000000000000
+      internalID: -7079036224822204618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 242
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97a6a72974ffe870800000000000000
+      internalID: 8714452605178652570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 145
+        width: 7
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe36b58d05aa73410800000000000000
+      internalID: 1456820268681618415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 167
+        width: 33
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d940a4aed6bb20c0800000000000000
+      internalID: -4599381527067866667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 158
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b71ed798fa0c3200800000000000000
+      internalID: 161015749494577078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_21
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 163
+        width: 11
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f6ad2be31683a20800000000000000
+      internalID: 3042288470205296512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_22
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 152
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364ca11d06b0070e0800000000000000
+      internalID: -2274305301369142173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_23
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 105
+        width: 16
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56c0ea15ffa54b60800000000000000
+      internalID: 7729777802704111194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_24
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 174
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f994b52ed9fd02150800000000000000
+      internalID: 5845918185527396767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f640d56b000a1a600800000000000000
+      internalID: 477838960397976687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_26
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 134
+        width: 54
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e835c88462224360800000000000000
+      internalID: 7152316973404469476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_27
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 128
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2ab186a7836dfa0800000000000000
+      internalID: -5776367373672275260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_28
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 151
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ab4c5b6501c0cb0800000000000000
+      internalID: -4896520730255771077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_29
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 147
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669d027e17eadf9a0800000000000000
+      internalID: -6197605707959707290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 108
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698b109dabf2aafe0800000000000000
+      internalID: -1177075873052772202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 129
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ee48bd34e538f30800000000000000
+      internalID: 4576605291877297749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_32
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 44
+        width: 50
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e86ebfbd9b84470800000000000000
+      internalID: 8379151461197975132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 81
+        width: 14
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d155fe71b04779b0800000000000000
+      internalID: -5082522523380919855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107fc6d817bfcbc60800000000000000
+      internalID: 7835413916840425217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_35
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 103
+        width: 98
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725c972f6955916c0800000000000000
+      internalID: -4172209472980531929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_36
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 6
+        width: 44
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254a4acd7d6d0e950800000000000000
+      internalID: 6476412486766863442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_37
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 95
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f55fbf8748a10920800000000000000
+      internalID: 2954827855839581685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_38
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 74
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5959bc847ab86b0800000000000000
+      internalID: -5292953005948824138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_39
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 35
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0699c748c9d452f00800000000000000
+      internalID: 1091363819340208480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Fox_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593a4cb3161af33f0800000000000000
+      internalID: -918838359973649515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Constellation_Fox_0: 440412167032402906
+      Constellation_Fox_1: 8856813806581870120
+      Constellation_Fox_10: 4194566386117749270
+      Constellation_Fox_11: -6707966511368875167
+      Constellation_Fox_12: 5059932726238267173
+      Constellation_Fox_13: -8791892297533549290
+      Constellation_Fox_14: -1508742604236906283
+      Constellation_Fox_15: -108931787386045735
+      Constellation_Fox_16: -7079036224822204618
+      Constellation_Fox_17: 8714452605178652570
+      Constellation_Fox_18: 1456820268681618415
+      Constellation_Fox_19: -4599381527067866667
+      Constellation_Fox_2: -4988348974130728900
+      Constellation_Fox_20: 161015749494577078
+      Constellation_Fox_21: 3042288470205296512
+      Constellation_Fox_22: -2274305301369142173
+      Constellation_Fox_23: 7729777802704111194
+      Constellation_Fox_24: 5845918185527396767
+      Constellation_Fox_25: 477838960397976687
+      Constellation_Fox_26: 7152316973404469476
+      Constellation_Fox_27: -5776367373672275260
+      Constellation_Fox_28: -4896520730255771077
+      Constellation_Fox_29: -6197605707959707290
+      Constellation_Fox_3: -3876390909224097255
+      Constellation_Fox_30: -1177075873052772202
+      Constellation_Fox_31: 4576605291877297749
+      Constellation_Fox_32: 8379151461197975132
+      Constellation_Fox_33: -5082522523380919855
+      Constellation_Fox_34: 7835413916840425217
+      Constellation_Fox_35: -4172209472980531929
+      Constellation_Fox_36: 6476412486766863442
+      Constellation_Fox_37: 2954827855839581685
+      Constellation_Fox_38: -5292953005948824138
+      Constellation_Fox_39: 1091363819340208480
+      Constellation_Fox_4: -3647041292504128717
+      Constellation_Fox_40: -918838359973649515
+      Constellation_Fox_5: -3502627705869437871
+      Constellation_Fox_6: -3638809246647436146
+      Constellation_Fox_7: -449319500356561554
+      Constellation_Fox_8: -3969968686877788598
+      Constellation_Fox_9: -3772220838113292703
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 44021d4df42dbf54fab339bbf767b5e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2496674407615586135
+    second: Constellation_Rose_0
+  - first:
+      213: -6432373582101788396
+    second: Constellation_Rose_1
+  - first:
+      213: -5096175655316825599
+    second: Constellation_Rose_2
+  - first:
+      213: 6917820301542319545
+    second: Constellation_Rose_3
+  - first:
+      213: -1899411012313067422
+    second: Constellation_Rose_4
+  - first:
+      213: -8630376878686399792
+    second: Constellation_Rose_5
+  - first:
+      213: 6310498656656733616
+    second: Constellation_Rose_6
+  - first:
+      213: 5309125870405933883
+    second: Constellation_Rose_7
+  - first:
+      213: -479858159354893017
+    second: Constellation_Rose_8
+  - first:
+      213: -3442524515406382808
+    second: Constellation_Rose_9
+  - first:
+      213: 4574829828533003035
+    second: Constellation_Rose_10
+  - first:
+      213: -779912782959931977
+    second: Constellation_Rose_11
+  - first:
+      213: 1157855758686539313
+    second: Constellation_Rose_12
+  - first:
+      213: 5447833502954523992
+    second: Constellation_Rose_13
+  - first:
+      213: -6391385349145481650
+    second: Constellation_Rose_14
+  - first:
+      213: -1772582628321473728
+    second: Constellation_Rose_15
+  - first:
+      213: 5933122427758432774
+    second: Constellation_Rose_16
+  - first:
+      213: -5444608496486916378
+    second: Constellation_Rose_17
+  - first:
+      213: -4962595400793649125
+    second: Constellation_Rose_18
+  - first:
+      213: 2145450399037302303
+    second: Constellation_Rose_19
+  - first:
+      213: 6202688172051026524
+    second: Constellation_Rose_20
+  - first:
+      213: -7909040374165601804
+    second: Constellation_Rose_21
+  - first:
+      213: 3547236805759459764
+    second: Constellation_Rose_22
+  - first:
+      213: 3240309690739384729
+    second: Constellation_Rose_23
+  - first:
+      213: -3821200751348243426
+    second: Constellation_Rose_24
+  - first:
+      213: -873117538783813422
+    second: Constellation_Rose_25
+  - first:
+      213: 5203461666763235872
+    second: Constellation_Rose_26
+  - first:
+      213: -3807425892658984287
+    second: Constellation_Rose_27
+  - first:
+      213: -1385174465939330839
+    second: Constellation_Rose_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Constellation_Rose_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 493
+        width: 112
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0a34eaad70a5dd0800000000000000
+      internalID: -2496674407615586135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 545
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4194738ae4e9bb6a0800000000000000
+      internalID: -6432373582101788396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 529
+        width: 81
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ad8dffd3fb649b0800000000000000
+      internalID: -5096175655316825599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 520
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b56a6d79e8010060800000000000000
+      internalID: 6917820301542319545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2605d907fbfe3a5e0800000000000000
+      internalID: -1899411012313067422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 484
+        width: 86
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2172c54fdba3880800000000000000
+      internalID: -8630376878686399792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 474
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5ba910815639750800000000000000
+      internalID: 6310498656656733616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 490
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bd165a9ddcda940800000000000000
+      internalID: 5309125870405933883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 458
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d2415eb833759f0800000000000000
+      internalID: -479858159354893017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 392
+        width: 20
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829f0a84132b930d0800000000000000
+      internalID: -3442524515406382808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 479
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1322959d7f0d7f30800000000000000
+      internalID: 4574829828533003035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 457
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd03efb4713d25f0800000000000000
+      internalID: -779912782959931977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 418
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ec6ad8da7811010800000000000000
+      internalID: 1157855758686539313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 410
+        width: 101
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d831305b79a9b40800000000000000
+      internalID: 5447833502954523992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_14
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 447
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e2c8153ec3d47a0800000000000000
+      internalID: -6391385349145481650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 408
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bced7bd758667e0800000000000000
+      internalID: -1772582628321473728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 376
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602d17bb96fa65250800000000000000
+      internalID: 5933122427758432774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 351
+        width: 128
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eed2d15b6dd074b0800000000000000
+      internalID: -5444608496486916378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_18
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 333
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1015b3a6c1512bb0800000000000000
+      internalID: -4962595400793649125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 90
+        width: 25
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16a6d555cb26cd10800000000000000
+      internalID: 2145450399037302303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_20
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 172
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c525e9b7700641650800000000000000
+      internalID: 6202688172051026524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_21
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 120
+        width: 29
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f103affea17d3290800000000000000
+      internalID: -7909040374165601804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_22
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1eb7da4115a3130800000000000000
+      internalID: 3547236805759459764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_23
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 84
+        width: 26
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991e6ceee74e7fc20800000000000000
+      internalID: 3240309690739384729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_24
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 79
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14ae68892e58fac0800000000000000
+      internalID: -3821200751348243426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_25
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 104
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0a0a5793012e3f0800000000000000
+      internalID: -873117538783813422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_26
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 73
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022e8c911d8663840800000000000000
+      internalID: 5203461666763235872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_27
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 8
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aacf6fb25e492bc0800000000000000
+      internalID: -3807425892658984287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Rose_28
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8aeb5892fd6cce0800000000000000
+      internalID: -1385174465939330839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Constellation_Rose_0: -2496674407615586135
+      Constellation_Rose_1: -6432373582101788396
+      Constellation_Rose_10: 4574829828533003035
+      Constellation_Rose_11: -779912782959931977
+      Constellation_Rose_12: 1157855758686539313
+      Constellation_Rose_13: 5447833502954523992
+      Constellation_Rose_14: -6391385349145481650
+      Constellation_Rose_15: -1772582628321473728
+      Constellation_Rose_16: 5933122427758432774
+      Constellation_Rose_17: -5444608496486916378
+      Constellation_Rose_18: -4962595400793649125
+      Constellation_Rose_19: 2145450399037302303
+      Constellation_Rose_2: -5096175655316825599
+      Constellation_Rose_20: 6202688172051026524
+      Constellation_Rose_21: -7909040374165601804
+      Constellation_Rose_22: 3547236805759459764
+      Constellation_Rose_23: 3240309690739384729
+      Constellation_Rose_24: -3821200751348243426
+      Constellation_Rose_25: -873117538783813422
+      Constellation_Rose_26: 5203461666763235872
+      Constellation_Rose_27: -3807425892658984287
+      Constellation_Rose_28: -1385174465939330839
+      Constellation_Rose_3: 6917820301542319545
+      Constellation_Rose_4: -1899411012313067422
+      Constellation_Rose_5: -8630376878686399792
+      Constellation_Rose_6: 6310498656656733616
+      Constellation_Rose_7: 5309125870405933883
+      Constellation_Rose_8: -479858159354893017
+      Constellation_Rose_9: -3442524515406382808
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

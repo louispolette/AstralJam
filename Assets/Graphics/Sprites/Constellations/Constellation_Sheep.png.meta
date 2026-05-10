@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: b3f9a6e47a2e12c459fe7fabb238a026
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1215888896349799874
+    second: Constellation_Sheep_0
+  - first:
+      213: -8669423524513536997
+    second: Constellation_Sheep_1
+  - first:
+      213: -2143259537765339175
+    second: Constellation_Sheep_2
+  - first:
+      213: -4829996779701954858
+    second: Constellation_Sheep_3
+  - first:
+      213: 5038060596770102013
+    second: Constellation_Sheep_4
+  - first:
+      213: -5565367469872141466
+    second: Constellation_Sheep_5
+  - first:
+      213: 246096076209941283
+    second: Constellation_Sheep_6
+  - first:
+      213: -494974350401907653
+    second: Constellation_Sheep_7
+  - first:
+      213: -987793515786437242
+    second: Constellation_Sheep_8
+  - first:
+      213: 7883592664627719785
+    second: Constellation_Sheep_9
+  - first:
+      213: -6096280313175644053
+    second: Constellation_Sheep_10
+  - first:
+      213: 8848735705879643962
+    second: Constellation_Sheep_11
+  - first:
+      213: -5771618880688439373
+    second: Constellation_Sheep_12
+  - first:
+      213: 6799099279161521023
+    second: Constellation_Sheep_13
+  - first:
+      213: 8028650349450935400
+    second: Constellation_Sheep_14
+  - first:
+      213: -1084066148035864800
+    second: Constellation_Sheep_15
+  - first:
+      213: -2376837159569875127
+    second: Constellation_Sheep_16
+  - first:
+      213: -5207029929665943602
+    second: Constellation_Sheep_17
+  - first:
+      213: -2205200353036898223
+    second: Constellation_Sheep_18
+  - first:
+      213: -7712210780829690609
+    second: Constellation_Sheep_19
+  - first:
+      213: 8347697015108253651
+    second: Constellation_Sheep_20
+  - first:
+      213: -1277818527726539720
+    second: Constellation_Sheep_21
+  - first:
+      213: 1559322914268687306
+    second: Constellation_Sheep_22
+  - first:
+      213: 1620317380759913760
+    second: Constellation_Sheep_23
+  - first:
+      213: -6400332271848315509
+    second: Constellation_Sheep_24
+  - first:
+      213: 5544623764199917006
+    second: Constellation_Sheep_25
+  - first:
+      213: -5774940800736043204
+    second: Constellation_Sheep_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Constellation_Sheep_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 254
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a7ab6ad7b402fe0800000000000000
+      internalID: -1215888896349799874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 258
+        width: 79
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14a4fdac3500b780800000000000000
+      internalID: -8669423524513536997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 253
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df670e4ecc9142e0800000000000000
+      internalID: -2143259537765339175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 198
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6959fe48768fcb0800000000000000
+      internalID: -4829996779701954858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 205
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfadf538b69cae540800000000000000
+      internalID: 5038060596770102013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ba1c1d5c7d3c2b0800000000000000
+      internalID: -5565367469872141466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 192
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b6c13d31f4a6300800000000000000
+      internalID: 246096076209941283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 7
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b345d57637f7129f0800000000000000
+      internalID: -494974350401907653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 119
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d7d1ce707aa42f0800000000000000
+      internalID: -987793515786437242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 114
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ea20962c5286d60800000000000000
+      internalID: 7883592664627719785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_10
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 108
+        width: 13
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6865f9ca59a56ba0800000000000000
+      internalID: -6096280313175644053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 85
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37854ced360dca70800000000000000
+      internalID: 8848735705879643962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 81
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfb0a5153717efa0800000000000000
+      internalID: -5771618880688439373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 50
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73790f65c04b5e50800000000000000
+      internalID: 6799099279161521023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 89
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cb6d884fe7b6f60800000000000000
+      internalID: 8028650349450935400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 44
+        width: 73
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027db4df49f94f0f0800000000000000
+      internalID: -1084066148035864800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f93e64237c30fd0800000000000000
+      internalID: -2376837159569875127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 42
+        width: 95
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec72f63fdd9ecb7b0800000000000000
+      internalID: -5207029929665943602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_18
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 44
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1507baa66fd8561e0800000000000000
+      internalID: -2205200353036898223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 27
+        width: 16
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0555b7e729b8f490800000000000000
+      internalID: -7712210780829690609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_20
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 18
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7bd1e053af8d370800000000000000
+      internalID: 8347697015108253651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 13
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c6277b1d6444ee0800000000000000
+      internalID: -1277818527726539720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_22
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 23
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbac1bcde3d3a510800000000000000
+      internalID: 1559322914268687306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025069fa2168c7610800000000000000
+      internalID: 1620317380759913760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 14
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85230c85b37d27a0800000000000000
+      internalID: -6400332271848315509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_25
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 13
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec54356dfe572fc40800000000000000
+      internalID: 5544623764199917006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Sheep_26
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fd73d40f94bdfa0800000000000000
+      internalID: -5774940800736043204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Constellation_Sheep_0: -1215888896349799874
+      Constellation_Sheep_1: -8669423524513536997
+      Constellation_Sheep_10: -6096280313175644053
+      Constellation_Sheep_11: 8848735705879643962
+      Constellation_Sheep_12: -5771618880688439373
+      Constellation_Sheep_13: 6799099279161521023
+      Constellation_Sheep_14: 8028650349450935400
+      Constellation_Sheep_15: -1084066148035864800
+      Constellation_Sheep_16: -2376837159569875127
+      Constellation_Sheep_17: -5207029929665943602
+      Constellation_Sheep_18: -2205200353036898223
+      Constellation_Sheep_19: -7712210780829690609
+      Constellation_Sheep_2: -2143259537765339175
+      Constellation_Sheep_20: 8347697015108253651
+      Constellation_Sheep_21: -1277818527726539720
+      Constellation_Sheep_22: 1559322914268687306
+      Constellation_Sheep_23: 1620317380759913760
+      Constellation_Sheep_24: -6400332271848315509
+      Constellation_Sheep_25: 5544623764199917006
+      Constellation_Sheep_26: -5774940800736043204
+      Constellation_Sheep_3: -4829996779701954858
+      Constellation_Sheep_4: 5038060596770102013
+      Constellation_Sheep_5: -5565367469872141466
+      Constellation_Sheep_6: 246096076209941283
+      Constellation_Sheep_7: -494974350401907653
+      Constellation_Sheep_8: -987793515786437242
+      Constellation_Sheep_9: 7883592664627719785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

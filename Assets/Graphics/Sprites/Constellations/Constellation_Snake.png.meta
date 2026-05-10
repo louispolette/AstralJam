@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: f2c535287824c8842aa301b7ea64b3cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6794319053111087817
+    second: Constellation_Snake_0
+  - first:
+      213: -8050063725043161827
+    second: Constellation_Snake_1
+  - first:
+      213: -4515365909212068490
+    second: Constellation_Snake_2
+  - first:
+      213: 6662040746091641167
+    second: Constellation_Snake_3
+  - first:
+      213: -1376980684395238919
+    second: Constellation_Snake_4
+  - first:
+      213: 1296806331006361017
+    second: Constellation_Snake_5
+  - first:
+      213: -6531282186360656544
+    second: Constellation_Snake_6
+  - first:
+      213: -1381074577387330418
+    second: Constellation_Snake_7
+  - first:
+      213: 6625479183453335402
+    second: Constellation_Snake_8
+  - first:
+      213: -3349171631154991505
+    second: Constellation_Snake_9
+  - first:
+      213: 5420550188523678021
+    second: Constellation_Snake_10
+  - first:
+      213: -2598955063630533697
+    second: Constellation_Snake_11
+  - first:
+      213: -1615095815078039951
+    second: Constellation_Snake_12
+  - first:
+      213: -1147058867891668044
+    second: Constellation_Snake_13
+  - first:
+      213: 6535997023360861197
+    second: Constellation_Snake_14
+  - first:
+      213: 7312980035665869003
+    second: Constellation_Snake_15
+  - first:
+      213: -816847754115322182
+    second: Constellation_Snake_16
+  - first:
+      213: 797427736309205052
+    second: Constellation_Snake_17
+  - first:
+      213: -2209578858204685081
+    second: Constellation_Snake_18
+  - first:
+      213: -2624625838490437784
+    second: Constellation_Snake_19
+  - first:
+      213: 8796564224400003927
+    second: Constellation_Snake_20
+  - first:
+      213: -8441098709349565513
+    second: Constellation_Snake_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Constellation_Snake_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 560
+        width: 125
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2da535e254a4e50800000000000000
+      internalID: 6794319053111087817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 655
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d156b8171bd684090800000000000000
+      internalID: -8050063725043161827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 640
+        width: 158
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675818601a23651c0800000000000000
+      internalID: -4515365909212068490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_3
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 630
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4978f5f2c2547c50800000000000000
+      internalID: 6662040746091641167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 529
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f92c04fc5bf3ece0800000000000000
+      internalID: -1376980684395238919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 462
+        width: 143
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd9c1ebc7e2ff110800000000000000
+      internalID: 1296806331006361017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 450
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06de22aa4793c55a0800000000000000
+      internalID: -6531282186360656544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 300
+        width: 105
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8461863dff65dce0800000000000000
+      internalID: -1381074577387330418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 376
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f2b7cc63e62fb50800000000000000
+      internalID: 6625479183453335402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 286
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ee039652a5581d0800000000000000
+      internalID: -3349171631154991505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 278
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549612a5da9a93b40800000000000000
+      internalID: 5420550188523678021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 238
+        width: 83
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb6915b328aeebd0800000000000000
+      internalID: -2598955063630533697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 203
+        width: 129
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ead00d9e60699e0800000000000000
+      internalID: -1615095815078039951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 210
+        width: 128
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbfada7904d410f0800000000000000
+      internalID: -1147058867891668044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 265
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d044f6ed9a684ba50800000000000000
+      internalID: 6535997023360861197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_15
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 188
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8336bb89cec7560800000000000000
+      internalID: 7312980035665869003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 79
+        width: 40
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe6164ab49f9a4f0800000000000000
+      internalID: -816847754115322182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 66
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3801cc1d48011b00800000000000000
+      internalID: 797427736309205052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 7
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec1f7d3cbff551e0800000000000000
+      internalID: -2209578858204685081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 64
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867377ca4b4739bd0800000000000000
+      internalID: -2624625838490437784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753954f4e8ca31a70800000000000000
+      internalID: 8796564224400003927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constellation_Snake_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 4
+        width: 84
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbf53b52713bda80800000000000000
+      internalID: -8441098709349565513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Constellation_Snake_0: 6794319053111087817
+      Constellation_Snake_1: -8050063725043161827
+      Constellation_Snake_10: 5420550188523678021
+      Constellation_Snake_11: -2598955063630533697
+      Constellation_Snake_12: -1615095815078039951
+      Constellation_Snake_13: -1147058867891668044
+      Constellation_Snake_14: 6535997023360861197
+      Constellation_Snake_15: 7312980035665869003
+      Constellation_Snake_16: -816847754115322182
+      Constellation_Snake_17: 797427736309205052
+      Constellation_Snake_18: -2209578858204685081
+      Constellation_Snake_19: -2624625838490437784
+      Constellation_Snake_2: -4515365909212068490
+      Constellation_Snake_20: 8796564224400003927
+      Constellation_Snake_21: -8441098709349565513
+      Constellation_Snake_3: 6662040746091641167
+      Constellation_Snake_4: -1376980684395238919
+      Constellation_Snake_5: 1296806331006361017
+      Constellation_Snake_6: -6531282186360656544
+      Constellation_Snake_7: -1381074577387330418
+      Constellation_Snake_8: 6625479183453335402
+      Constellation_Snake_9: -3349171631154991505
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
