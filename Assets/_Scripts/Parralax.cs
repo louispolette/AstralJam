@@ -7,13 +7,13 @@ public class Parralax : MonoBehaviour
     public Camera cam;
     public Transform subjects;
 
+    public bool Particle = false;
+
 
     float startPos;
     float startZ;
 
     float Length;
-    
-    float travel => (float)cam.transform.position.y - startPos;
 
     float distanceFromSubject => startZ - subjects.position.z;
 
@@ -49,11 +49,25 @@ public class Parralax : MonoBehaviour
 
         if(newMouvement > startPos + Length)
         {
-            startPos += Length;
+            if(!Particle)
+            {
+                startPos += Length;
+            }
+            else
+            {
+                startPos += Length * 2;
+            }
         }
         else if (newMouvement < startPos - Length)
         {
-            startPos -= Length;
+            if (!Particle)
+            {
+                startPos -= Length;
+            }
+            else
+            {
+                startPos -= Length * 2;
+            }
         }
     }
 }
