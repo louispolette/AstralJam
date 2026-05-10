@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     [field: SerializeField] public SpriteRenderer BodySprite { get; private set; }
     [field: SerializeField] public SpriteRenderer HandSprite { get; private set; }
     [field: SerializeField] public AudioSource Audio { get; private set; }
+    [field: SerializeField] public ParticleSystem StarTrail { get; private set; }
 
     [field: Header("Audio")]
 
@@ -49,6 +50,8 @@ public class Player : MonoBehaviour
         Animator = GetComponent<Animator>();
         ScarfRenderer = GetComponentInChildren<PlayerTailRenderer>();
         DynamicLine = GetComponentInChildren<DynamicLineRenderer>();
+
+        StarTrail.Stop();
 
         var scarfBones = ScarfRenderer.TailBones;
         DynamicLine.Initialize(scarfBones);
@@ -90,6 +93,7 @@ public class Player : MonoBehaviour
         _lastJumpInitialVel = RB.linearVelocity;
         FlipSprite();
         PlayJumpAudio(isStarBounce);
+        StarTrail.Play();
         GameManager.Instance.jumps++;
         SetPlayerState(PlayerState.Jumping);
     }
@@ -119,6 +123,12 @@ public class Player : MonoBehaviour
         if (newState == _state) return;
 
         _state = newState;
+
+        if (newState == PlayerState.Falling)
+        {
+            StarTrail.Stop();
+        }
+        
         Animator.SetBool("isJumping", _state == PlayerState.Jumping);
     }
 }
